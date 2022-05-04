@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         brand: {
           '500' : '#8257e6',
+          'hover' : '#996dff',
         }
       }
     },

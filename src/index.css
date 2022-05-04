@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[#18181b];
+  @apply bg-[#09090a] text-zinc-100;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
