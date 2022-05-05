@@ -1,3 +1,5 @@
+const tailwindcss = require("tailwindcss");
+
 module.exports = {
   content: [
     "./index.html",
@@ -8,10 +10,16 @@ module.exports = {
       colors: {
         brand: {
           '500' : '#8257e6',
-          'hover' : '#996dff',
+          '300' : '#996dff',
         }
+      },
+      borderRadius: {
+        md: '4px', //sobrescrevendo propriedade do TW
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'), //plugin para forms
+    require('tailwind-scrollbar'),
+  ],
 }

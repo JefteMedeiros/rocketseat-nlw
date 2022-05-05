@@ -5,7 +5,7 @@ interface IFeedbackTypeProps {
   onFeedbackTypeChanged: (type: FeedbackType) => void; //funçao que recebe como parametro uma variável do tipo N que retorna nulo
 }
 
-const FeedbackTypeStep = ({ onFeedbackTypeChanged }: IFeedbackTypeProps) => {
+const FeedbackTypeStep: React.FC<IFeedbackTypeProps> = ({ onFeedbackTypeChanged }) => {
   return (
     <>
       <header>
